@@ -1,0 +1,23 @@
+{
+    "deploy": [
+        "../deploy.md"
+    ],
+    "docs": "",
+    "features": [
+        "Dual-core",
+        "External Flash",
+        "External RAM",
+        "USB-C"
+    ],
+    "images": [
+        "tinytapeout_rp2350_core.png"
+    ],
+    "mcu": "rp2350",
+    "product": "RP2350B Core",
+    "thumbnail": "",
+    "url": "https://github.com/psychogenic/tinytapeout_rp2350_core",
+    "variants": {
+        "RISCV": "RISC V"
+    },
+    "vendor": "Psychogenic Technologies INC"
+}
