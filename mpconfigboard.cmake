@@ -4,6 +4,9 @@
 # The Core is powered by an RP2350B with 48 GPIOs
 set(PICO_NUM_GPIOS 48)
 set(PICO_PLATFORM "rp2350")
+# set(PICO_FLASH_SIZE_BYTES (4 * 1024 * 1024))
+set(PICO_FLASH_SIZE_BYTES 4194304)
+
 
 # The WeAct Studio boards don't have official pico-sdk support.
 # So, add this board directory to the header search path and define PICO_BOARD
