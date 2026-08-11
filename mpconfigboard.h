@@ -1,8 +1,8 @@
 // Board and hardware specific configuration
 #define MICROPY_HW_BOARD_NAME "TinyTapeout RP2350B Core"
 #define PICO_FLASH_SIZE_BYTES (4 * 1024 * 1024)
-#define MICROPY_HW_FLASH_STORAGE_BYTES (PICO_FLASH_SIZE_BYTES - (2 * 1024 * 1024))
-// #define MICROPY_HW_FLASH_STORAGE_BYTES (1408 * 1024)
+// now reserving just 800k for the uPython OS -- more flash FS for us!
+#define MICROPY_HW_FLASH_STORAGE_BYTES (PICO_FLASH_SIZE_BYTES - (800*1024))
 
 // TODO: Split PSRAM option off as a variant
 #define MICROPY_HW_PSRAM_CS_PIN (0)
